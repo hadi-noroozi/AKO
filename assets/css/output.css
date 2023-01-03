@@ -2612,11 +2612,27 @@ button:active {
   -webkit-transition: all 0.3s ease-in-out;
 }
 
-.content a {
-  color: #3F83F8;
+.content a,
+.FAQ a {
+  color: #0093dd;
 }
 
-.content a:hover {
+.content a:hover,
+.FAQ a:hover{
   color: #063b96;
+}
 
+.FAQ h3 * {
+  transition: all 0.3s ease-in-out !important;
+}
+
+.FAQ div {
+  transition: all 0.8s ease-out !important;
+  background-color: #f2f3f7;
+}
+
+textarea:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow:none;
 }
