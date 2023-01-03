@@ -2572,8 +2572,8 @@ input:checked + .toggle-bg {
 }
 
 .blue-aco {
-  color: #0093dd !important;
-  color: 
+  color: #0093dd !important; 
+
 }
 
 button:focus,
@@ -2584,4 +2584,39 @@ button:active {
 
 #accordion-flush button[aria-expanded = 'true'] {
   background-color: #fff !important;
+}
+
+.blog-hero .blog-card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.blog-hero .blog-card a {
+  background-color: rgba(0, 0, 0, 0.68);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.blog-hero .blog-card:hover {
+  background-size: 220%;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.blog-hero .blog-card:hover a {
+  background-color: rgba(0, 0, 0, 0.75);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.content a {
+  color: #3F83F8;
+}
+
+.content a:hover {
+  color: #063b96;
+
 }
